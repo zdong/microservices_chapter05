@@ -2,7 +2,7 @@ package microservices.book.multiplication.user;
 
 import lombok.*;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 
 /**
  * Stores information to identify the user.
@@ -11,6 +11,7 @@ import javax.persistence.*;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
+@Table(name = "`user`")
 public class User {
 
     @Id

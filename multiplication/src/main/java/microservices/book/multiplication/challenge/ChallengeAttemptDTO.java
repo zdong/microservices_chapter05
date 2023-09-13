@@ -2,7 +2,7 @@ package microservices.book.multiplication.challenge;
 
 import lombok.Value;
 
-import javax.validation.constraints.*;
+import jakarta.validation.constraints.*;
 
 /**
  * Attempt coming from the user
